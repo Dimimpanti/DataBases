@@ -1,12 +1,19 @@
 # Application Overview
 
-## About the Application
+## 1.1 Σκοπός της εφαρμογής
 
-This application essentially represents a database designed to assist users by storing data on what is happening with the devices in their home. The goal is to enable efficient management and monitoring of smart home devices, sensors, and user activities, with a focus on enhancing convenience and safety within the home environment.
+Η εφαρμογή στοχεύει στη διαχείριση και παρακολούθηση ενός έξυπνου σπιτιού μέσω ενός δικτύου αισθητήρων που ανιχνεύουν περιβαλλοντικές συνθήκες και καταστάσεις, όπως η αύξηση της θερμοκρασίας και μιας υβριδικής συσκευής (π.χ., smartwatch). Οι αισθητήρες αυτοί, σε συνδυασμό με το υβριδικό σύστημα, ενεργοποιούν τις κατάλληλες συσκευές ώστε να διατηρούν το περιβάλλον στις ιδανικές συνθήκες που έχει ορίσει ο χρήστης ανάλογα με τις προτιμησεις του.
 
-## Key Features
+Με αυτό τον τρόπο, εξασφαλίζεται τόσο η ασφάλεια του σπιτιού (π.χ., μέσω του συστήματος συναγερμού και του αυτόματου ποτίσματος του κήπου) όσο και η ευημερία του κατοίκου. Το σύστημα μπορεί να παρακολουθεί και να προσαρμόζει συνθήκες που επηρεάζουν τη βιωσιμότητα και την ποιότητα ζωής του χρήστη, όπως η θερμοκρασία και ο φωτισμός, προσφέροντας έτσι έναν έξυπνο, ασφαλή και υγιή χώρο διαβίωσης.
 
-### Users and Roles
+
+## 1.2	Περιγραφή Εφαρμογής
+
+Η εφαρμογή προσφέρει στον χρήστη τη δυνατότητα να παρακολουθεί τη φυσική του κατάσταση μέσω του smartwatch του, αποθηκεύοντας δεδομένα που αφορούν την υγεία του (όπως παλμοί, θερμίδες, βήματα κ.λπ.). Επιπλέον, ο χρήστης ενημερώνεται μέσω notifications από το smartwatch για τις προγραμματισμένες του δραστηριότητες, ώστε να παραμένει οργανωμένος και "on track" με το καθημερινό του πρόγραμμα.
+Παράλληλα, η εφαρμογή του δίνει τη δυνατότητα να ρυθμίζει και να ελέγχει διάφορες συσκευές του σπιτιού (όπως φωτισμό, θερμοκρασία και σύστημα συναγερμού) βάσει των προσωπικών  προτιμήσεων που έχει θέσει. 
+
+
+
 - **User Entity**: Each user has a unique ID. Users also have an assigned role within the home (e.g., admin, guest, child) that defines their access level to different devices. 
    - **Admin**: Has full access to configure devices and set rules.
    - **Guest**: Limited access, primarily for monitoring or basic usage.
